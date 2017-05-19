@@ -1,0 +1,200 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	background: #F4FAE0;
+	color: #cccc66;
+	font-family: Tahoma,Verdana;
+	height:100%; overflow:hidden;
+}
+
+#wrapper {
+    background: white;
+    clear: both;
+    margin: 0 auto;
+    padding: 0 0px;
+    width: 1074px;
+    height:100%;  
+    
+}
+
+#footer {
+    background: url("../img/login/footer-bg.gif") no-repeat scroll left bottom rgba(0, 0, 0, 0);
+    clear: both;
+    height: 200px;
+    position: relative;
+    margin-bottom:0 px;
+}
+#footer p {
+    bottom: 10px;
+    font-size: 11px;
+    position: absolute;
+    right: 90px;
+}
+
+#banner {
+    background: url("../img/login/trafficcast-banner-bg.gif") no-repeat scroll left top #FFFFFF;
+    height: 131px;
+}
+.topbar {padding: 15px 0px 40px 50px; font-size: 18px; font-weight:bold; background-repeat:no-repeat;}
+
+
+.PAGETITLE {
+	BACKGROUND-COLOR: #F4FAE0;
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 100px; 
+	COLOR: #F4FAE0; 
+	FONT-FAMILY: Tahoma;
+}
+ .bgcolor
+    {/*
+        background-color:#ebf2f6 ;
+        filter: alpha(opacity=30);
+        -moz-opacity: .30;
+        -khtml-opacity: 0.30;
+        opacity: .30;
+        width:100%;
+        height:100%;
+        z-index:-100;*/
+    }
+    .bgcolorClear
+    {
+        filter: alpha(opacity=100);
+        -moz-opacity: 1.0;
+        -khtml-opacity: 1.0;
+        opacity: 1.0;
+    }
+    
+    .tl {background-image: url(../img/login/top_left_corner.png);background-repeat:no-repeat;width:27px;height:27px;}
+    .tc {background-image: url(../img/login/horizontal_shadow_top.png);background-repeat:repeat-x;}
+    .tr {background-image: url(../img/login/top_right_corner.png);background-repeat:no-repeat;width:27px;height:27px;}
+    .ml {background-image: url(../img/login/vertical_shadow_left.png);background-repeat:repeat-y;}
+    .mc {}
+    .mr {background-image: url(../img/login/vertical_shadow_right.png);background-repeat:repeat-y;background-position:right;}
+    .bl {background-image: url(../img/login/bottom_left_corner.png);background-repeat:no-repeat;width:27px;height:28px;}
+    .bc {background-image: url(../img/login/horizontal_shadow_down.png);background-repeat:repeat-x;background-position:bottom;}
+    .br {background-image: url(../img/login/bottom_right_corner.png);background-repeat:no-repeat;background-position:right;width:27px;height:28px;}
+    .clear {font-size: 1px; height: 1px}
+    
+    .stl {background-image: url(../img/login/small_box_top_left_corner.png);background-repeat:no-repeat;width:13px;height:13px;}
+    .stc {background-image: url(../img/login/small_horizontal_shadow_top.png);background-repeat:repeat-x;}
+    .str {background-image: url(../img/login/small_box_top_right_corner.png);background-repeat:no-repeat;width:14px;height:13px;}
+    .sml {background-image: url(../img/login/small_vertical_shadow_left.png);background-repeat:repeat-y;}
+    .smc {}
+    .smr {background-image: url(../img/login/small_vertical_shadow_right.png);background-repeat:repeat-y;background-position:right;}
+    .sbl {background-image: url(../img/login/small_box_bottom_left_corner.png);background-repeat:no-repeat;width:13px;height:12px;}
+    .sbc {background-image: url(../img/login/small_horizontal_shadow_bottom.png);background-repeat:repeat-x;background-position:bottom;}
+    .sbr {background-image: url(../img/login/small_box_bottom_right_corner.png);background-repeat:no-repeat;width:14px;height:12px;}
+    
+    .ssep{background-image:url(../img/login/small_seperator.png);background-repeat:no-repeat;width:4px;background-position:center center;} 
+    .bsep{background-image:url(../img/login/big_seperator.png);background-repeat:no-repeat;width:8px;height:138px;background-position:center center;} 
+    
+  
+    .logintextbox
+    {
+
+    background-image:url('../img/login/txt.gif');
+    width: 205px;
+	height: 28px;
+	line-height: 30px;
+	overflow: hidden;
+	border: 0px;
+	padding-left: 10px;
+	color: #000000;
+             }
+			 
+	.focusuidlogin
+	{
+	    padding:3px 4px 0 4px;
+    	background-image:url('../img/login/new_bg.png');
+    	background-repeat:repeat-x;
+    	height:21px;width:180px;
+    	border-left :1px solid #7d7d7b;
+		border-right:1px solid #7d7d7b;
+		border-top:0;
+		border-bottom:0;
+	    FONT-WEIGHT: normal;
+        FONT-SIZE: 12px;
+        FONT-FAMILY: Tahoma;
+	}
+	 
+    .loginNote
+    {
+     font-size:10px;
+     color:#7d7d7d;
+     font-family:Tahoma;
+    	}
+ 
+
+	#button
+	{
+		text-align:center;   
+		margin:100px;   
+		}
+.LoginBG
+{
+	overflow:visible;
+	min-width:1024px;
+	width:100%;
+	height:300px;
+	background-position:center center;
+	
+}
+	.LOGINHDR
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: #333366;
+    FONT-FAMILY: Tahoma;
+}
+.LOGINLBL
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11px;
+    COLOR: Black;
+    FONT-FAMILY: Tahoma;
+}
+.LOGINERR
+{
+    FONT-WEIGHT: 600;
+    FONT-SIZE: 10px;
+    COLOR: red;
+    FONT-FAMILY: Tahoma;
+}
+.LOGINTEXT
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 10px;
+    COLOR: #000066;
+    FONT-FAMILY: Tahoma;
+}
+.LOGINLEFT
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    COLOR: white;
+    FONT-FAMILY: Tahoma;
+}
+.LOGINLEFTHDR
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12px;
+    COLOR: gold;
+    FONT-FAMILY: Tahoma;
+}
+IMG {
+    border: none;
+}
+.loginlbl1
+{
+font-size: 11px;
+color: #125899;
+font-family: Tahoma;
+}
+.loginHelp
+{
+	font-size: 10px;
+	color: #868686;
+	font-family: Verdana;
+	}

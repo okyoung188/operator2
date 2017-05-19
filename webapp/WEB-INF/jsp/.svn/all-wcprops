@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/Dynaflow/!svn/ver/5943/branches/operator2/webapp/WEB-INF/jsp
+END
+nopermission.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/Dynaflow/!svn/ver/3842/branches/operator2/webapp/WEB-INF/jsp/nopermission.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/Dynaflow/!svn/ver/5786/branches/operator2/webapp/WEB-INF/jsp/header.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/Dynaflow/!svn/ver/3332/branches/operator2/webapp/WEB-INF/jsp/error.jsp
+END
+incidentfeedcount.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/Dynaflow/!svn/ver/4870/branches/operator2/webapp/WEB-INF/jsp/incidentfeedcount.jsp
+END
+incident.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/Dynaflow/!svn/ver/5934/branches/operator2/webapp/WEB-INF/jsp/incident.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/Dynaflow/!svn/ver/4611/branches/operator2/webapp/WEB-INF/jsp/footer.jsp
+END
+errorMessage.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/Dynaflow/!svn/ver/4664/branches/operator2/webapp/WEB-INF/jsp/errorMessage.jsp
+END
+settings.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/Dynaflow/!svn/ver/5787/branches/operator2/webapp/WEB-INF/jsp/settings.jsp
+END
+operatorsummaryreport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/Dynaflow/!svn/ver/5557/branches/operator2/webapp/WEB-INF/jsp/operatorsummaryreport.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/Dynaflow/!svn/ver/5944/branches/operator2/webapp/WEB-INF/jsp/login.jsp
+END
+operatorreportdetail.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Dynaflow/!svn/ver/5876/branches/operator2/webapp/WEB-INF/jsp/operatorreportdetail.jsp
+END
+operatorsummaryreport_operatorview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/Dynaflow/!svn/ver/5571/branches/operator2/webapp/WEB-INF/jsp/operatorsummaryreport_operatorview.jsp
+END
+incidents.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/Dynaflow/!svn/ver/5935/branches/operator2/webapp/WEB-INF/jsp/incidents.jsp
+END
+preview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/Dynaflow/!svn/ver/3161/branches/operator2/webapp/WEB-INF/jsp/preview.jsp
+END
+verifypath.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Dynaflow/!svn/ver/5888/branches/operator2/webapp/WEB-INF/jsp/verifypath.jsp
+END

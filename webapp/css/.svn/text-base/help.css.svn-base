@@ -1,0 +1,39 @@
+*{ 
+	font-family: arial; 
+	font-size: 14px; 
+	padding: 0px;
+	margin: 0px;
+	color: #000;
+}
+
+body {
+	width: 1170px;
+	margin: auto;
+}
+
+.header {
+	color: #585ac2;
+	font-size: 20px; 
+	font-weight: bold;
+	padding: 20px;
+	text-align: center;
+}
+
+.nav label {	
+	font-size: 18px; 	
+	color: #585ac2;
+	font-weight: bold;
+}
+
+.nav ul {
+	padding: 10px 0px 40px 0px;
+}
+
+.nav ul li {
+	padding: 5px;
+}
+
+.nav ul li a {
+	color: #585ac2;	
+	font-weight: bold;
+}

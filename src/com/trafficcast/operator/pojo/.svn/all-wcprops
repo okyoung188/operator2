@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/Dynaflow/!svn/ver/5897/branches/operator2/src/com/trafficcast/operator/pojo
+END
+OperatorViewSummaryReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/Dynaflow/!svn/ver/5559/branches/operator2/src/com/trafficcast/operator/pojo/OperatorViewSummaryReport.java
+END
+CarmaIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Dynaflow/!svn/ver/5674/branches/operator2/src/com/trafficcast/operator/pojo/CarmaIncident.java
+END
+Itiscode.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Dynaflow/!svn/ver/5478/branches/operator2/src/com/trafficcast/operator/pojo/Itiscode.java
+END
+TrackingLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Dynaflow/!svn/ver/5471/branches/operator2/src/com/trafficcast/operator/pojo/TrackingLog.java
+END
+Note.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Dynaflow/!svn/ver/5861/branches/operator2/src/com/trafficcast/operator/pojo/Note.java
+END
+IncidentSearchCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/repos/Dynaflow/!svn/ver/5860/branches/operator2/src/com/trafficcast/operator/pojo/IncidentSearchCriteria.java
+END
+ExpireIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/Dynaflow/!svn/ver/5618/branches/operator2/src/com/trafficcast/operator/pojo/ExpireIncident.java
+END
+Report.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Dynaflow/!svn/ver/5861/branches/operator2/src/com/trafficcast/operator/pojo/Report.java
+END
+UserSetting.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Dynaflow/!svn/ver/5784/branches/operator2/src/com/trafficcast/operator/pojo/UserSetting.java
+END
+FeedCount.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/Dynaflow/!svn/ver/4718/branches/operator2/src/com/trafficcast/operator/pojo/FeedCount.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Dynaflow/!svn/ver/4040/branches/operator2/src/com/trafficcast/operator/pojo/User.java
+END
+FDFCIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Dynaflow/!svn/ver/5869/branches/operator2/src/com/trafficcast/operator/pojo/FDFCIncident.java
+END
+County.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Dynaflow/!svn/ver/5204/branches/operator2/src/com/trafficcast/operator/pojo/County.java
+END
+LinkBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Dynaflow/!svn/ver/3170/branches/operator2/src/com/trafficcast/operator/pojo/LinkBean.java
+END
+Market.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/Dynaflow/!svn/ver/5784/branches/operator2/src/com/trafficcast/operator/pojo/Market.java
+END
+WMSIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/Dynaflow/!svn/ver/5647/branches/operator2/src/com/trafficcast/operator/pojo/WMSIncident.java
+END
+FlowDetectionIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/Dynaflow/!svn/ver/4688/branches/operator2/src/com/trafficcast/operator/pojo/FlowDetectionIncident.java
+END
+Road.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/Dynaflow/!svn/ver/3283/branches/operator2/src/com/trafficcast/operator/pojo/Road.java
+END
+LinkCoordinates.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/Dynaflow/!svn/ver/3192/branches/operator2/src/com/trafficcast/operator/pojo/LinkCoordinates.java
+END
+ListIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/Dynaflow/!svn/ver/5631/branches/operator2/src/com/trafficcast/operator/pojo/ListIncident.java
+END
+LongTraverseIncident.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/Dynaflow/!svn/ver/5897/branches/operator2/src/com/trafficcast/operator/pojo/LongTraverseIncident.java
+END
+PopupMessages.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/Dynaflow/!svn/ver/5897/branches/operator2/src/com/trafficcast/operator/pojo/PopupMessages.java
+END
+Incident.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/Dynaflow/!svn/ver/5677/branches/operator2/src/com/trafficcast/operator/pojo/Incident.java
+END
