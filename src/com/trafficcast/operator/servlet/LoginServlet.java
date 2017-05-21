@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+import com.sun.xml.internal.bind.v2.TODO;
 import com.trafficcast.operator.dao.ReportDAO;
 import com.trafficcast.operator.dao.UserDAO;
 import com.trafficcast.operator.pojo.User;
@@ -27,14 +28,15 @@ public class LoginServlet extends BaseServlet {
 		user.setPassword(password);
 		User newUser = UserDAO.getUserByName(user);
 		if (newUser.getName() != null) {
-		    //ReportDAO.addUserTrackingRecord(newUser.getId(), 1, Utils.getClientIpAddr(request));
-		    session.setAttribute("userName", newUser.getName());
-		    session.setAttribute("userRole", newUser.getRole());
-		    session.setAttribute("user", newUser);
-		    session.setAttribute("userSetting", UserDAO.getUserSettingById(newUser.getId()));
-		    session.setAttribute("version", version);
-		    //response.sendRedirect("incidents.action");
-		    response.sendRedirect("test.jsp");
+			session.setAttribute("user", newUser);
+		    response.sendRedirect("test.jsp");//hardcode, remove at last	
+//		    ReportDAO.addUserTrackingRecord(newUser.getId(), 1, Utils.getClientIpAddr(request));
+//		    session.setAttribute("userName", newUser.getName());
+//		    session.setAttribute("userRole", newUser.getRole());
+//		    session.setAttribute("user", newUser);
+//		    session.setAttribute("userSetting", UserDAO.getUserSettingById(newUser.getId()));
+//		    session.setAttribute("version", version);
+//		    response.sendRedirect("incidents.action");	
 		} else {
 		    session.removeAttribute("userName");
 		    session.removeAttribute("userRole");

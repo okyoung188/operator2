@@ -5,6 +5,8 @@ public class User {
 	
 	private String name;
 	
+	private String fullName;
+	
 	private String password;
 	
 	private String role;
@@ -59,6 +61,14 @@ public class User {
 
 	public void setReport(int report) {
 		this.report = report;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
 	}
 
 	

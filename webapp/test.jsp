@@ -17,8 +17,8 @@
 <title>Test userManagement</title>
 <script type="text/javascript">
 	function userManage() {
-		$('#settingWin').window('open');
-		$('#settingWinIframe').attr('src', 'userManagement.action');
+		$('#userMngWin').window('open');
+		$('#userMngWinIframe').attr('src', 'userManagement.action');
 	}
 </script>
 </head>
@@ -34,13 +34,13 @@
     <input type="button" value="User Management" onclick="userManage()">
     <%} %>
 	
-	<div id="settingWin" class="easyui-window"
-		data-options="title:'Settings',modal:true,closed:true,minimizable:false,maximizable:false,collapsible:false,
+	<div id="userMngWin" class="easyui-window"
+		data-options="title:'User Mangement',modal:true,closed:true,minimizable:false,maximizable:false,collapsible:false,
 		onClose:function(){
-        		$('#settingWinIframe').attr('src','');
+        		$('userMngWinIframe').attr('src','');
     		}"
-		style="width: 1000px; height: 500px; overflow: hidden;">
-		<iframe id="settingWinIframe" src="" frameborder="no" width="100%"
+		style="width: 1000px; height: 550px; overflow: hidden;">
+		<iframe id="userMngWinIframe" src="" frameborder="no" width="100%"
 			height="100%"></iframe>
 	</div>
 </body>

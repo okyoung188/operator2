@@ -11,7 +11,8 @@ import com.trafficcast.operator.pojo.User;
 import com.trafficcast.operator.pojo.UserSetting;
 
 public class UserDAO {
-    
+	public static String BY_NAME = "byName";
+	
     public static User getUserByName(User user) throws Exception {
 	User userObj = new User();
 	Connection con = null;
@@ -392,21 +393,25 @@ public class UserDAO {
 		try {
 			if (queryData != null && !"".equals(queryData.trim())){
 				con = DBConnector.getInstance().connectToIncidentDB();
-				String sql = "select * from operator_user where ? = ? and status = 1";
-				stmt = con.prepareStatement(sql);
-				stmt.setString(1, queryType.trim());
-				stmt.setString(2, queryData.trim());
-				rs = stmt.executeQuery();
-				User user = null;
-				while (rs.next()) {
-					user = new User();
-					user.setId(rs.getInt("id"));
-					user.setName(rs.getString("name"));
-					user.setPassword(rs.getString("password"));
-					user.setRole(rs.getString("role"));
-					user.setLocation(rs.getString("location"));
-					users.add(user);
-				}
+				String sql = "select * from operator_user where status = 1";				
+				if (queryType != null) {
+					if (queryType.trim().equals(BY_NAME)) {
+						sql = sql + " and name like ?";
+						stmt = con.prepareStatement(sql);
+						stmt.setString(1, "%" + queryData.trim() + "%");
+						rs = stmt.executeQuery();
+						User user = null;
+						while (rs.next()) {
+							user = new User();
+							user.setId(rs.getInt("id"));
+							user.setName(rs.getString("name"));
+							user.setPassword(rs.getString("password"));
+							user.setRole(rs.getString("role"));
+							user.setLocation(rs.getString("location"));
+							users.add(user);
+						}
+					}					
+				}				
 			}
 		} catch(Exception e){
 			throw e;
