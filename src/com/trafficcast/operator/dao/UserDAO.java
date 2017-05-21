@@ -317,16 +317,16 @@ public class UserDAO {
 				String sql = "update operator_user set";
 				if (user.getId() > 0) {
 					if (user.getName() != null && !user.getName().equals("")){
-						sql = sql + " name = " + user.getName() + ",";
+						sql = sql + " name = '" + user.getName() + "',";
 					}
 					if (user.getPassword() != null && !user.getPassword().equals("")){
-						sql = sql + " password = " + user.getPassword() + ",";
+						sql = sql + " password = '" + user.getPassword() + "',";
 					}
 					if (user.getRole() != null && !user.getRole().equals("")){
-						sql = sql + " role = " + user.getRole() + ",";
+						sql = sql + " role = '" + user.getRole() + "',";
 					}
 					if (user.getLocation() != null && !user.getLocation().equals("")){
-						sql = sql + " location = " + user.getLocation()  + ",";
+						sql = sql + " location = '" + user.getLocation()  + "',";
 					}
 					sql = sql.replaceAll(",$", "");
 					sql = sql + " where id = " + user.getId() + " and status = 1";			
